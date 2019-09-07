@@ -1,3 +1,5 @@
 Rails.application.routes.draw do
-  root 'welcome#index'
+  resources :goals
+  root to: 'static_pages#about'
+  # root 'welcome#index'
 end
