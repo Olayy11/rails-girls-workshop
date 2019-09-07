@@ -30,5 +30,6 @@ module RailsGirlsWorkshop
     config.generators.helper = false
     config.generators.stylesheets = false
     config.generators.system_tests = false
+    config.time_zone = "Kyiv"
   end
 end
